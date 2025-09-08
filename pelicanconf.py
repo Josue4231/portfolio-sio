@@ -71,7 +71,7 @@ MENUITEMS = (
         "Découvrez mon parcours scolaire et professionnel.", "primary"
     ),
 
-    ("Réalisations", "/pages/realisations", "check2-square",
+    ("Réalisations", "/pages/realisations", "check2-square-fill",
         (
             ("TP majeurs", "/pages/tp-majeurs"),
             ("Stage de 1ère année", "/pages/stage-sio1"),
