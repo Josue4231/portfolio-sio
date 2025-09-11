@@ -48,9 +48,11 @@
         <!-- Logo : -->
         <div class="col-md-4 m-0 p-0 align-content-center text-center">
             <a href="./" title="Page d'accueil" class="navbar-brand">
-                <img src="./theme/logo/logo_PBS-teal.png" alt="logo du portfolio" style="height: 80px;">
+                
             </a>
+            
         </div>
+        
 
         <div class="col-8 m-0 p-0 align-content-center text-center d-none d-md-block">
             <!-- Titre principal : -->
@@ -117,7 +119,7 @@
                                 title="Accédez aux projets et TP réalisés pendant ma formation et à mes projets personnels."
                                 href="./pages/realisations"
  data-bs-toggle="dropdown"  aria-expanded="false"                             >
-                            <i  class="bi bi-check2-square-fill d-md-block text-md-center me-md-0 me-2 nav-link-icon"></i>
+                            <i  class="bi bi-check2-square d-md-block text-md-center me-md-0 me-2 nav-link-icon"></i>
                                 Réalisations
                             </a>
                             
@@ -169,55 +171,55 @@
 <h1>Tags</h1>
 <ul class="list-group">
     <li class="list-group-item">
-      <a href="./tag/image.html">image</a>
+      <a id="image" href="./tag/image.html">image</a>
       <span class="badge bg-secondary float-end">1</span>
     </li>
     <li class="list-group-item">
-      <a href="./tag/google.html">Google</a>
+      <a id="google" href="./tag/google.html">Google</a>
       <span class="badge bg-secondary float-end">3</span>
     </li>
     <li class="list-group-item">
-      <a href="./tag/nano-banana.html">Nano-Banana</a>
+      <a id="nano-banana" href="./tag/nano-banana.html">Nano-Banana</a>
       <span class="badge bg-secondary float-end">1</span>
     </li>
     <li class="list-group-item">
-      <a href="./tag/gemini.html">Gemini</a>
+      <a id="gemini" href="./tag/gemini.html">Gemini</a>
       <span class="badge bg-secondary float-end">1</span>
     </li>
     <li class="list-group-item">
-      <a href="./tag/llm.html">LLM</a>
+      <a id="llm" href="./tag/llm.html">LLM</a>
       <span class="badge bg-secondary float-end">1</span>
     </li>
     <li class="list-group-item">
-      <a href="./tag/chatgpt.html">ChatGPT</a>
+      <a id="chatgpt" href="./tag/chatgpt.html">ChatGPT</a>
       <span class="badge bg-secondary float-end">1</span>
     </li>
     <li class="list-group-item">
-      <a href="./tag/chatgpt5.html">ChatGPT5</a>
+      <a id="chatgpt5" href="./tag/chatgpt5.html">ChatGPT5</a>
       <span class="badge bg-secondary float-end">1</span>
     </li>
     <li class="list-group-item">
-      <a href="./tag/openai.html">OpenAI</a>
+      <a id="openai" href="./tag/openai.html">OpenAI</a>
       <span class="badge bg-secondary float-end">1</span>
     </li>
     <li class="list-group-item">
-      <a href="./tag/veo.html">Veo</a>
+      <a id="veo" href="./tag/veo.html">Veo</a>
       <span class="badge bg-secondary float-end">2</span>
     </li>
     <li class="list-group-item">
-      <a href="./tag/flow.html">Flow</a>
+      <a id="flow" href="./tag/flow.html">Flow</a>
       <span class="badge bg-secondary float-end">1</span>
     </li>
     <li class="list-group-item">
-      <a href="./tag/video.html">vidéo</a>
+      <a id="video" href="./tag/video.html">vidéo</a>
       <span class="badge bg-secondary float-end">1</span>
     </li>
     <li class="list-group-item">
-      <a href="./tag/choose-france.html">Choose France</a>
+      <a id="choose-france" href="./tag/choose-france.html">Choose France</a>
       <span class="badge bg-secondary float-end">1</span>
     </li>
     <li class="list-group-item">
-      <a href="./tag/investissement.html">investissement</a>
+      <a id="investissement" href="./tag/investissement.html">investissement</a>
       <span class="badge bg-secondary float-end">1</span>
     </li>
 </ul>
@@ -233,3 +235,22 @@
     <script src="./theme/js/custom.js"></script>
 </body>
 </html>
+<style>
+    #parcours{
+        display: inline-block;
+  margin: 5px 10px;
+  padding: 8px 15px;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 600;
+  text-decoration: none;
+    }
+    #parcours:hover{
+        background: #fff;
+  color: #000;
+  transform: scale(1.05);
+        
+    }
+</style>

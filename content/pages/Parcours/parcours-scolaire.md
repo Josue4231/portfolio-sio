@@ -72,13 +72,13 @@ h2 {
     margin-right: auto;
 }
 .href, .slam {
-    color: #2980b9;
+    color: #3778a3ff;
     text-decoration: none;
     font-weight: 600;
     transition: color 0.3s ease;
 }
 .href:hover, .slam:hover {
-    color: #e67e22;
+    color: #3ad80aff;
     text-decoration: underline;
 }
 u {

@@ -6,7 +6,7 @@
 <ul class="list-group">
   {% for tag, articles in tags %}
     <li class="list-group-item">
-      <a href="{{ SITEURL }}/tag/{{ tag.slug }}.html">{{ tag.name }}</a>
+      <a id="{{tag.slug}}" href="{{ SITEURL }}/tag/{{ tag.slug }}.html">{{ tag.name }}</a>
       <span class="badge bg-secondary float-end">{{ articles|length }}</span>
     </li>
   {% endfor %}

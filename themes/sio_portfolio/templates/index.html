@@ -18,7 +18,7 @@ _______________________________________________________________________________
 <div class="text-center py-5">
     <h1 class="h2">Bienvenue sur mon Portfolio BTS SIO</h1>
     <p class="lead-4 mt-3">
-        Ce site portefolio a pour objectif de présenter mon parcours de formation et plus particulièrement mes acquis dans le cadre du BTS SIO. C'est pourquoi vous pourrez trouver : les réalisations et activités ayant contribuées (projets, TP) à ma formation, ainsi que ma veille technologique.
+        Ce site portfolio a pour objectif de présenter mon parcours de formation et plus particulièrement mes acquis dans le cadre du BTS SIO. C'est pourquoi vous pourrez trouver : les réalisations et activités ayant contribuées (projets, TP) à ma formation, ainsi que ma veille technologique.
     </p>
 </div>
 
@@ -37,6 +37,61 @@ _______________________________________________________________________________
     </div>    
 {% endfor %}
 </div>
+
+<br>
+<br>
+<div class="social-links">
+  <a href="#" target="_blank" class="social-link linkedin">LinkedIn</a>
+  <a href="#" target="_blank" class="social-link github">GitHub</a>
+</div>
+<style>
+    h2{
+        text-align: center;
+        justify-content: center;
+    }
+.social-links {
+  display: flex;
+  gap: 30px;
+  justify-content: center; 
+  
+}
+
+.social-link {
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+
+.social-link.linkedin {
+  background-color: #0077b5;
+  color: white;
+}
+
+.social-link.github {
+  background-color: #333;
+  color: white;
+}
+
+
+.social-link:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.social-link.linkedin:hover {
+  background-color: #005582;
+}
+
+
+.social-link.github:hover {
+  background-color: #444;
+}
+</style>
 
 
 {% endblock %}

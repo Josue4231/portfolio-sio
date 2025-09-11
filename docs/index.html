@@ -49,9 +49,11 @@
         <!-- Logo : -->
         <div class="col-md-4 m-0 p-0 align-content-center text-center">
             <a href="./" title="Page d'accueil" class="navbar-brand">
-                <img src="./theme/logo/logo_PBS-teal.png" alt="logo du portfolio" style="height: 80px;">
+                
             </a>
+            
         </div>
+        
 
         <div class="col-8 m-0 p-0 align-content-center text-center d-none d-md-block">
             <!-- Titre principal : -->
@@ -118,7 +120,7 @@
                                 title="Accédez aux projets et TP réalisés pendant ma formation et à mes projets personnels."
                                 href="./pages/realisations"
  data-bs-toggle="dropdown"  aria-expanded="false"                             >
-                            <i  class="bi bi-check2-square-fill d-md-block text-md-center me-md-0 me-2 nav-link-icon"></i>
+                            <i  class="bi bi-check2-square d-md-block text-md-center me-md-0 me-2 nav-link-icon"></i>
                                 Réalisations
                             </a>
                             
@@ -174,7 +176,7 @@
 <div class="text-center py-5">
     <h1 class="h2">Bienvenue sur mon Portfolio BTS SIO</h1>
     <p class="lead-4 mt-3">
-        Ce site portefolio a pour objectif de présenter mon parcours de formation et plus particulièrement mes acquis dans le cadre du BTS SIO. C'est pourquoi vous pourrez trouver : les réalisations et activités ayant contribuées (projets, TP) à ma formation, ainsi que ma veille technologique.
+        Ce site portfolio a pour objectif de présenter mon parcours de formation et plus particulièrement mes acquis dans le cadre du BTS SIO. C'est pourquoi vous pourrez trouver : les réalisations et activités ayant contribuées (projets, TP) à ma formation, ainsi que ma veille technologique.
     </p>
 </div>
 
@@ -193,7 +195,7 @@
     <div class="col-md-4">
         <div class="card shadow-sm h-100">
             <div class="card-body">
-                <i class="bi bi-check2-square-fill display-5 mb-3 text-success"></i>
+                <i class="bi bi-check2-square display-5 mb-3 text-success"></i>
                 <h5 class="card-title">Réalisations</h5>
                 <p class="card-text">Accédez aux projets et TP réalisés pendant ma formation et à mes projets personnels.</p>
                 <a href="./pages/realisations" class="btn btn-outline-success">Voir</a>
@@ -212,6 +214,61 @@
     </div>    
 </div>
 
+<br>
+<br>
+<div class="social-links">
+  <a href="#" target="_blank" class="social-link linkedin">LinkedIn</a>
+  <a href="#" target="_blank" class="social-link github">GitHub</a>
+</div>
+<style>
+    h2{
+        text-align: center;
+        justify-content: center;
+    }
+.social-links {
+  display: flex;
+  gap: 30px;
+  justify-content: center; 
+  
+}
+
+.social-link {
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+
+.social-link.linkedin {
+  background-color: #0077b5;
+  color: white;
+}
+
+.social-link.github {
+  background-color: #333;
+  color: white;
+}
+
+
+.social-link:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.social-link.linkedin:hover {
+  background-color: #005582;
+}
+
+
+.social-link.github:hover {
+  background-color: #444;
+}
+</style>
+
 
     </main>
 
@@ -225,3 +282,22 @@
     <script src="./theme/js/custom.js"></script>
 </body>
 </html>
+<style>
+    #parcours{
+        display: inline-block;
+  margin: 5px 10px;
+  padding: 8px 15px;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 600;
+  text-decoration: none;
+    }
+    #parcours:hover{
+        background: #fff;
+  color: #000;
+  transform: scale(1.05);
+        
+    }
+</style>
