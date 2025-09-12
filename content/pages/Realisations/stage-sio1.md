@@ -27,9 +27,9 @@ Title: Stage SIO1
   Ce stage m’a permis de renforcer mes compétences en développement front-end, en responsive design ainsi que la gestion de projet sur une plateforme collaborative. J’ai également appris à adapter le contenu web aux besoins spécifiques d’un client réel.
 </p>
 <div class="links">
-  <a href="https://github.com/Josue4231/MonCoiffeurEnLigne.com" target="_blank" rel="noopener">Code source GitHub</a>
-  <a href="https://josue4231.github.io/tarifcoiffeur/" target="_blank" rel="noopener">Tarifs en ligne</a>
-  <a href="https://josue4231.github.io/boisson/" target="_blank" rel="noopener">Galerie photo</a>
+  <a href="https://github.com/Josue4231/MonCoiffeurEnLigne.com" target="_blank" rel="noopener">Site web</a>
+  <a href="https://github.com/Josue4231/tarifcoiffeur" target="_blank" rel="noopener">Tarifs en ligne</a>
+  <a href="https://github.com/Josue4231/boisson" target="_blank" rel="noopener">Boisson</a>
 </div>
   </section>
 
