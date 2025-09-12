@@ -23,8 +23,8 @@ L’année suivant l’obtention de mon baccalauréat, j’ai entamé ma premiè
 - **<u>Débouchés :</u>** emploi direct (technicien support, admin systèmes/réseaux, développeur junior) ou poursuite d’études (Bachelor, BUT, Licence).
 <br>
 <div class="cv-buttons">
-  <a href="cv_alternance" class="cve" target="_black">CV Alternance</a>
-  <a href="cv_stage.pdf" class="cve" target="_black">CV</a>
+  <a href="/home/josue/Portfolio-SIO/cv_alternance.pdf" class="cve" target="_black">CV Alternance</a>
+  <a href="/home/josue/Portfolio-SIO/cv_stage.pdf" class="cve" target="_black">CV</a>
 </div>
 <style>
 .cv-buttons {
