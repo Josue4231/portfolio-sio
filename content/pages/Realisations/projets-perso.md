@@ -5,11 +5,11 @@ Title: Projets personnels
   <ul>
     <li>
       <span>Barre de recherche Google et Youtube</span>
-      <a href="#" target="_black">Voir le site</a>
+      <a href="https://josue4231.github.io/portfolio2.0/" target="_black">Voir le site</a>
       </li>
     <li>
       <span>Portfolio personnel</span>
-      <a href="#" target="_blank">Voir le site</a>
+      <a href="https://josue4231.github.io/portfolio2.0/" target="_blank">Voir le site</a>
     </li>
   </ul>
 </section>
