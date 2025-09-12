@@ -3,10 +3,9 @@ Title: Stage SIO1
  <section class="fiche-descriptive">
     <u>FICHE DESCRIPTIVE :</u>
     <div class="dates-stage" aria-label="Dates du stage">
-      <u>Dates du stage :<u>
-      <p><strong>Date début :</strong> XX/06/2025</p>
-    <p><strong>Date fin :</strong> XX/06/2025</p>
-    <p><strong>Entreprise :</strong> Nom de l'entreprise</p>
+      <p><strong>Date début :</strong> 19/05/2025</p>
+    <p><strong>Date fin :</strong> 27/06/2025</p>
+    <p><strong>Entreprise :</strong> Barber shop norvegien 007</p>
     </div>
 
   <h1>Stage Développeur Web</h1>

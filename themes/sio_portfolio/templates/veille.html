@@ -3,9 +3,75 @@
 {% block title %}Veille Technologique{% endblock %}
 
 {% block content %}
-    <h1>Veille technologique</h1>
+     <h1>Veille Technologique</h1>
+        <p>Bienvenue sur ma page de veille technologique. Vous y trouverez une sélection d'articles, de ressources et de recherches que j'ai suivis durant ma formation en BTS SIO.</p>
+    </header>
 
-      {{ page.content }}
+    <main class="veille-content">
+        <section class="article">
+            <h2>1. L'intelligence artificielle dans le développement logiciel</h2>
+            <p>L'IA transforme les outils de développement, en aidant à la génération de code, aux tests automatisés et à la correction d’erreurs.</p>
+            <a href="https://www.ibm.com/fr-fr/think/topics/ai-in-software-development#:~:text=abonner%20d%C3%A8s%20maintenant-,Utilisation%20de%20l'IA%20dans%20le%20d%C3%A9veloppement%20logiciel,et%20en%20stimulant%20la%20productivit%C3%A9." target="_blank">Lire l'article</a>
+        </section>
+
+        <section class="article">
+            <h2>2. La cybersécurité : enjeux en 2025</h2>
+            <p>Les cyberattaques sont de plus en plus sophistiquées, obligeant les entreprises à investir massivement dans la sécurité.</p>
+            <a href="https://www.hubone.fr/oneblog/cybersecurite-2025-une-annee-charniere-face-aux-nouvelles-menaces/" target="_blank">Voir l'article</a>
+        </section>
+
+    </main>
+<style>
+    
+header {
+    background-color: #004d99;
+    color: white;
+    padding: 40px 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.veille-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.article {
+    background-color: white;
+    border-left: 5px solid #004d99;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.article h2 {
+    color: #004d99;
+    margin-bottom: 10px;
+}
+
+.article a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.article a:hover {
+    text-decoration: underline;
+}
+
+
+</style>
+
+      <!--{{ page.content }}
 
     <ul class="list-group">
     {% for article in articles %}
@@ -16,4 +82,4 @@
         </li>
     {% endfor %}
     </ul>
-{% endblock %}
+{% endblock %}-->

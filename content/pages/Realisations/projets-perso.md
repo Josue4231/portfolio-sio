@@ -4,16 +4,10 @@ Title: Projets personnels
   <p>Voici quelques projets réalisés durant mes deux années :</p>
   <ul>
     <li>
-      <img src="" >
-      <span>Portfolio avec pelican</span>
-      <a href="https://josue4231.github.io/portfolio-sio/">Voir le site</a>
+      <span>Barre de recherche Google et Youtube</span>
+      <a href="#" target="_black">Voir le site</a>
+      </li>
     <li>
-    <img src="#" >
-    <span>Api Movie</span>
-      <a href="https://github.com/Josue4231/Projet-API-Movie-DB" target="_blank">Voir le projet</a>
-    </li>
-    <li>
-      <img src="" >
       <span>Portfolio personnel</span>
       <a href="#" target="_blank">Voir le site</a>
     </li>

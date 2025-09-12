@@ -10,7 +10,7 @@ Title: TP majeurs
     <p><strong>Date :</strong> Mars 2025</p>
     <p><strong>Technologies utilisées :</strong> PHP, SQL, HTML, CSS, JavaScript</p>
     <p><strong>Description :</strong> Geoworld est une application web permettant de visualiser et d'explorer des cartes interactives de différents continents et pays. Ce projet a été développé pour offrir une interface simple et interactive pour explorer les informations géographiques et historiques des pays à travers une architecture PHP/SQL.</p>
-    <a href="#" class="btn-project" target="_blank" >Projet Geoworld</a>
+    <a href="https://github.com/Josue4231/geoworld" class="btn-project" target="_blank" >Projet Geoworld</a>
   </div>
 
   <div class="project">
@@ -30,7 +30,7 @@ Title: TP majeurs
       <li>Bootstrap (pour le design)</li>
       <li>API REST (TMDb)</li>
     </ul>
-     <a href="#" class="btn-project" target="_blank">Projet 
+     <a href="https://github.com/Josue4231/Projet-API-Movie-DB" class="btn-project" target="_blank">Projet 
      Api movie</a>
   </div>
 

@@ -57,7 +57,7 @@ Définition du fond :
 --------------------
 */
 body {
-    background-image: url('../backgrounds/1441.jpg');
+    background-image: url('../backgrounds/blu.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; /*contain*/ 
@@ -129,6 +129,10 @@ Couleur des éléments de navigations :
 }
 #menu{
     background: linear-gradient( black,white);
+}
+#menu:hover{
+    background: linear-gradient(135deg, #6a5af9, #96f1ed);
+    border-bottom: 1px solid linear-gradient(135deg, #6a5af9, #96f1ed);
 }
   .parcours{
         display: inline-block;

@@ -8,7 +8,7 @@ Title: Parcours scolaire
 
 <h2>1. Licence Science de Ingenieur</h2>
 
-L’année suivant l’obtention de mon baccalauréat, j’ai entamé ma première année de licence en <a href="#" class="href"><stong>Sciences de l’ingénieur</strong></a> à l’Université Sorbonne Paris Nord.
+L’année suivant l’obtention de mon baccalauréat, j’ai entamé ma première année de licence en <a href="https://www.onisep.fr/formation/les-principaux-domaines-de-formation/les-licences-de-sciences/la-licence-sciences-pour-l-ingenieur" class="href" target="_black"><stong>Sciences de l’ingénieur</strong></a> à l’Université Sorbonne Paris Nord.
 
 - **<u>Débouchés :</u>** AéronautiqueAutomobile , Énergie (EDF, ENGIE, etc.) ,Industrie (production, maintenance) Télécommunications Informatique industrielle .
 
@@ -17,7 +17,7 @@ L’année suivant l’obtention de mon baccalauréat, j’ai entamé ma premiè
 
 - **<u>Options SLAM:</u>**
     
-    Après ma réorientation , j'ai intégré un BTS SIO option <a href="" class="slam">SLAM</a>."
+    Après ma réorientation , j'ai intégré un BTS SIO option  <a href="https://www.onisep.fr/ressources/univers-formation/formations/post-bac/bts-services-informatiques-aux-organisations-option-b-solutions-logicielles-et-applications-metiers" class="slam" target="_black">SLAM</a> dans le lycée Leonard de Vinci."
     
 - <p>Durée : 2 ans </p> 
 - **<u>Débouchés :</u>** emploi direct (technicien support, admin systèmes/réseaux, développeur junior) ou poursuite d’études (Bachelor, BUT, Licence).
