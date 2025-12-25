@@ -1,138 +1,142 @@
-# Portfolio BTS SIO
+# 🌐 Portfolio BTS SIO
 
-Ce dépôt contient un modèle de portfolio statique pour les étudiants du BTS SIO (SLAM/SISR). Il est basé sur **[Pelican](https://blog.getpelican.com/)**, un générateur de site statique écrit en Python, et utilise **Bootstrap 5** pour la mise en page.
+**Portfolio BTS SIO** est un site web généré statiquement pour présenter le **parcours, les compétences, la veille technologique** et les **projets personnels** d’un étudiant en **BTS Services Informatiques aux Organisations (SIO)**.  
+Le projet utilise **Pelican**, un générateur de site statique en Python, et un thème **Bootstrap 5** adapté aux portfolios professionnels. :contentReference[oaicite:1]{index=1}
+
+---
 
 ## 🎯 Objectifs pédagogiques
 
-- Structurer son parcours, ses projets et ses compétences de manière professionnelle.
-- Documenter sa veille technologique tout au long de l'année.
-- Utiliser des outils du développement web modernes (Pelican, Jinja2, Markdown, Git).
+- 📌 Structurer et présenter son **parcours académique**
+- 🛠️ Mettre en valeur ses **projets techniques**
+- 🧠 Documenter sa **veille technologique**
+- 🌍 Créer un site statique moderne, responsive et professionnel
+- 🧩 Publier le portfolio sur **GitHub Pages** ou tout autre hébergement web :contentReference[oaicite:2]{index=2}
 
 ---
 
-## 🧰 Prérequis
-
-- Python 3.10 ou supérieur
-- Git
-- Un éditeur de texte (VSCode recommandé)
+## 🧱 Structure du projet
+```css
+portfolio-sio/
+├── content/
+│ ├── pages/ # Pages Markdown (parcours, compétences, contact, etc.)
+│ └── veille/ # Articles de veille technologique
+├── themes/
+│ └── sio_portfolio/ # Thème personnalisé (Bootstrap 5 + Jinja2 templates)
+├── docs/ # Version générée du site prête pour GitHub Pages
+├── static/ # Fichiers statiques (CSS, JS, images)
+├── pelicanconf.py # Configuration Pelican
+├── publishconf.py # Configuration pour production
+├── Makefile # Scripts de génération
+├── README.md # Documentation (ce fichier)
+└── cv_alternance.pdf # CV téléchargeable
+```
+---
+> Ce modèle facilite la séparation entre **contenu** (Markdown) et **thème**, permettant de générer un site statique propre et réutilisable. :contentReference[oaicite:3]{index=3}
 
 ---
 
-## 🚀 Installation
+## 💻 Technologies Utilisées
+
+- 🐍 **Pelican** — générateur de sites statiques en Python  
+- 🧠 **Python** — scripts de génération du site  
+- 🅱️ **Bootstrap 5** — framework CSS pour un design responsive  
+- 📄 **Markdown** — contenus (pages, articles de veille)  
+- 🌐 **Git & GitHub / GitHub Pages** — hébergement & versioning :contentReference[oaicite:4]{index=4}
+
+---
+
+## 🚀 Installation & Développement Local
+
+### 1️⃣ Prérequis
+
+- Python 3.10+  
+- Git  
+- (Optionnel) Virtualenv pour isoler l’environnement
+
+---
+
+### 2️⃣ Cloner le dépôt
 
 ```bash
-# 1. Cloner le dépôt
-git clone https://github.com/ljules/Portfolio-sio
-cd Portfolio-SIO
-
-# 2. Créer un environnement virtuel
-python -m venv venv
-source venv/bin/activate        # Linux/macOS
-venv\Scripts\activate.bat       # Windows
-
-# 3. Installer les dépendances
-pip install pelican markdown --proxy http://IP_PROXY:PORT
-
-# Remarque : Remplacer IP_PROXY par l'IP du serveur proxy (ex : 172.16.0.54 ou 172.16.0.51) et PORT par le numéro de port qui est toujours 8080.
+git clone https://github.com/Josue4231/portfolio-sio
+cd portfolio-sio
 ```
-
 ---
 
-## 🧪 Lancer le site en local
+## 3️⃣ Créer un environnement Python
+python -m venv venv
+```
+# Windows
+```bash
+venv\Scripts\activate
+# macOS / Linux
+```bash
+source venv/bin/activate
+```
 
+## 4️⃣ Installer les dépendances
+```bash
+pip install pelican markdown
+```
+
+## 5️⃣ Lancer le serveur local
 ```bash
 pelican -lr
 ```
 
-Le site sera accessible sur : [http://localhost:8000](http://localhost:8000)
+Le site sera accessible à l’adresse suivante :
+
+http://localhost:8000
+
+
+📍 Tu peux éditer le contenu Markdown dans content/pages/ et content/veille/, puis relancer la génération. 
+GitHub
 
 ---
 
-## 📁 Structure du projet
+## 📦 Générer la version finale
 
-```
-content/
-├── pages/           → Pages statiques (parcours, projets, etc.)
-├── veille/          → Articles de veille technologique
-themes/
-└── sio_portfolio/   → Thème personnalisé (Bootstrap 5 + Jinja2)
-```
+Pour produire la version finale du site (optimisée pour la production) :
 
----
-
-## 🧩 Modifier le contenu
-
-### Modifier les pages
-
-Les fichiers `.md` dans `content/pages/` contiennent vos pages statiques.
-
-Exemple :
-
-```markdown
-Title: Mon parcours
-Date: 2025-09-01
-Save_as: pages/parcours.html
-```
-
-### Ajouter un article de veille
-
-Créer un fichier `.md` dans `content/veille/` :
-
-```markdown
-Title: Lancement de GPT-5
-Date: 2025-09-01
-Tags: intelligence-artificielle, nlp
-Summary: OpenAI annonce la sortie de GPT-5.
-Category: Veille
-
-Contenu complet de l’article...
-```
-
----
-
-## 🎨 Personnalisation
-
-Le thème est situé dans `themes/sio_portfolio/` :
-
-- Mise en page HTML : `templates/`
-- Style CSS : `static/css/custom.css`
-- Fichiers JS : `static/js/custom.js`
-- Favicons : `static/logo/`
-
-Tu peux modifier les fichiers dans `templates/` pour personnaliser le rendu de tes pages (`page.html`, `veille.html`, `article.html`, etc.).
-
----
-
-
----
-
-## 📦 Générer la version finale pour la mise en production sur **GitHub IO**
-
-```bash
 pelican content -s publishconf.py
-```
 
-Les fichiers seront générés dans le dossier `docs/` avec les URLs configurées pour la mise en ligne.
 
-Il faudra avant la publication sur **GitHub IO** :
-1. Créer votre dépôt sur **GitHub** si cela n'est pas encore fait.
-2. Activer la publication  de **GitHub IO** pour votre dépôt avec l'option `Deploy from a branch` et dans le dossier `docs` de la branche principale (_master_ ou _main_ selon votre choix ou stratégie).
-3. Renseigner l'URL de votre page **GitHub IO** dans le fichier `publishconf.py` en renseignant la constante `SITEURL`.
+Les fichiers générés seront placés dans le dossier docs/, prêt à être déployé sur GitHub Pages. 
 
 ---
 
-Après l'exécution de la commande `pelican content -s publishconf.py`, votre portfolio pourra être _commité_ (`git commit -m "Message du commit"`) et poussé sur votre **GitHub** (`git push`) afin de le rendre accessible en production avec **GitHub IO**.
+## 🧠 Personnalisation & Contenu
+✏️ Pages principales
 
+À propos — Présentation personnelle, formation, objectifs
 
-## 🧠 Ressources utiles
+Compétences — Langages, frameworks, outils maîtrisés
 
-- [Documentation officielle de Pelican](https://docs.getpelican.com/en/latest/)
-- [Guide Markdown rapide](https://www.markdownguide.org/cheat-sheet/)
-- [Bootstrap 5](https://getbootstrap.com/)
+Projets — Liste des projets réalisés avec descriptions
+
+Veille technologique — Articles Markdown indiquant ta veille
+
+Contact / CV — Coordonnées & PDF téléchargeable 
+GitHub
 
 ---
 
-## ✍️ Auteur
+## 📬 Publication sur GitHub Pages
 
-Développé dans le cadre du BTS SIO SLAM  
-Modèle de base à adapter et personnaliser pour chaque étudiant.
+Active GitHub Pages dans les paramètres du dépôt
+
+Choisis docs/ comme dossier source
+
+Publie → ton portfolio sera accessible en ligne via l’URL GitHub Pages 
+GitHub
+
+---
+
+
+## 👤 Auteur
+Josue Kialengela‑Tazi — Étudiant en BTS SIO SLAM
+Github.io: https://josue4231.github.io/portfolio-sio/
+Ce portfolio a été créé pour valoriser ton parcours, compétences et projets tech.
+
+---
