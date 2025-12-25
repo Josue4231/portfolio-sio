@@ -122,18 +122,6 @@ GitHub
 
 ---
 
-## 📬 Publication sur GitHub Pages
-
-Active GitHub Pages dans les paramètres du dépôt
-
-Choisis docs/ comme dossier source
-
-Publie → ton portfolio sera accessible en ligne via l’URL GitHub Pages 
-GitHub
-
----
-
-
 ## 👤 Auteur
 Josue Kialengela‑Tazi — Étudiant en BTS SIO SLAM
 Github.io: https://josue4231.github.io/portfolio-sio/
